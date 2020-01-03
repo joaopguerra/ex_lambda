@@ -1,0 +1,24 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		list.add("Maria");
+		list.add("José");
+		list.add("Marta");
+		list.add("João");
+		list.add("Pedro");
+
+		//list.sort((n1, n2) -> n1.toUpperCase().compareTo(n2.toUpperCase()));
+		//list.removeIf(s1 -> s1.charAt(0) == 'J');
+
+		for (String s : list) {
+			System.out.println(s);
+		}
+	}
+}
